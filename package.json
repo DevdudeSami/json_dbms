@@ -1,0 +1,23 @@
+{
+  "name": "json_dbms",
+  "version": "1.0.0",
+  "description": "A DBMS in Node.js that uses JSON to store records. Why? Why not?",
+  "main": "app.js",
+  "dependencies": {
+    "node_cmd_app": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevdudeSami/json_dbms.git"
+  },
+  "author": "Youssef Moawad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevdudeSami/json_dbms/issues"
+  },
+  "homepage": "https://github.com/DevdudeSami/json_dbms#readme"
+}
