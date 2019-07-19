@@ -21,10 +21,12 @@ class Table {
 
 class DB {
 	db = {}
+	file = ""
 
-	constructor() {
+	constructor(file) {
 		// read the schema
-		this.db = JSON.parse(fs.readFileSync("store/db.json"))
+		this.file = file
+		this.db = JSON.parse(fs.readFileSync(file))
 	}
 	
 	init() {
@@ -128,7 +130,7 @@ class DB {
 	}
 
 	commit() {
-		fs.writeFileSync("store/db.json", JSON.stringify(this.db))
+		fs.writeFileSync(this.file, JSON.stringify(this.db))
 		console.log("Commited changes.")
 	}
 }

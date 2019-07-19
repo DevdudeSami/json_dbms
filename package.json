@@ -1,6 +1,6 @@
 {
   "name": "glass_onion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A DBMS in Node.js that uses JSON to store records. Why? Why not?",
   "main": "index.js",
   "dependencies": {
