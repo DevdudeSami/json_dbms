@@ -1,10 +1,10 @@
 {
-  "name": "json_dbms",
+  "name": "glass_onion",
   "version": "1.0.0",
   "description": "A DBMS in Node.js that uses JSON to store records. Why? Why not?",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
-    "node_cmd_app": "^1.0.1"
+    "node_cmd_app": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {
